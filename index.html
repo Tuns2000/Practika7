@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заметки</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Заметки</h1>
+    <div id="offline-status" class="hidden">Офлайн-режим</div>
+    
+
+    <button id="toggle-notes-btn" class="button-primary">Показать все заметки</button>
+
+    <div id="note-form" class="note-form">
+      <textarea id="note-input" placeholder="Введите текст заметки"></textarea>
+      <button id="add-note-btn" class="button-secondary">Добавить</button>
+    </div>
+
+    <ul id="note-list" class="note-list">
+  
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
